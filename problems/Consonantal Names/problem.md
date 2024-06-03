@@ -81,6 +81,3 @@ TREBLA
 There are 2 names with at least 4 consonants - `Nitsuj` and `TREBLA`.
 It can be shown for the second query that all four names have at least 3 consonants.
 
-```
-
-```
