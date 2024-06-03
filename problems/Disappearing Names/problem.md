@@ -31,7 +31,7 @@ $name_N$
 
 `1 <= N <= 1,000`
 
-All names will be one word - no space, and contain only letters a-z (either uppercase or lowercase).
+All names will be one word (no longer than 20 characters) - no space, and contain only letters a-z (either uppercase or lowercase).
 
 **Output Format**
 
