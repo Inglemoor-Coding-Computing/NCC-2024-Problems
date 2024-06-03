@@ -1,0 +1,20 @@
+[
+    {
+        "input": "4\n8",
+        "output": "12",
+        "sample": "false",
+        "strength": 10
+    },
+    {
+        "input": "3\n-1",
+        "output": "2",
+        "sample": "false",
+        "strength": 10
+    },
+    {
+        "input": "-1\n12",
+        "output": "11",
+        "sample": "false",
+        "strength": 10
+    }
+]
