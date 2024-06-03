@@ -45,7 +45,7 @@ $1 <= N <= 2000$
 
 Each character in a name is either an alphabetic lowercase or uppercase character (ascii 65-90, 97-122, both inclusive) or a space character (ascii value of 32).
 
-$1 <= max\_word\_length <= 10$  
+$1 <= max\_word\_length <= 29$  
 $1 <= Q <= 100$  
 $1 <= query_i <= 10$
 
