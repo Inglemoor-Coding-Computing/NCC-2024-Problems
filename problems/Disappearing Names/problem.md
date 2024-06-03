@@ -35,7 +35,7 @@ All names will be one word - no space, and contain only letters a-z (either uppe
 
 **Output Format**
 
-A box of characters.
+The sum of the grabbed indices.
 
 **Sample Input 0**
 
