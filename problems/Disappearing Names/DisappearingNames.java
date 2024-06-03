@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DisappearingNames {
@@ -19,8 +20,9 @@ public class DisappearingNames {
                 arr.remove(0);
             } else {
                 ans += arr.size();
-                arr.removeLast();
+                arr.remove(arr.size() - 1);
             }
+            Collections.reverse(arr);
             ++cur;
         }
         System.out.println(ans);
