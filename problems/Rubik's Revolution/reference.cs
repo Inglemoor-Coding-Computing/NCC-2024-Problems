@@ -43,6 +43,43 @@ foreach (var (rotation, depth) in rotations)
 {
     faces[rotation] = RotateMatrix(faces[rotation], n);
     var temp = new char[n];
+    if (depth == n)
+    {
+        // rotate opposite face counter-clockwise
+        switch (rotation)
+        {
+            case 0:
+                faces[5] = RotateMatrix(faces[5], n);
+                faces[5] = RotateMatrix(faces[5], n);
+                faces[5] = RotateMatrix(faces[5], n);
+                break;
+            case 1:
+                faces[3] = RotateMatrix(faces[3], n);
+                faces[3] = RotateMatrix(faces[3], n);
+                faces[3] = RotateMatrix(faces[3], n);
+                break;
+            case 2:
+                faces[4] = RotateMatrix(faces[4], n);
+                faces[4] = RotateMatrix(faces[4], n);
+                faces[4] = RotateMatrix(faces[4], n);
+                break;
+            case 3:
+                faces[1] = RotateMatrix(faces[1], n);
+                faces[1] = RotateMatrix(faces[1], n);
+                faces[1] = RotateMatrix(faces[1], n);
+                break;
+            case 4:
+                faces[2] = RotateMatrix(faces[2], n);
+                faces[2] = RotateMatrix(faces[2], n);
+                faces[2] = RotateMatrix(faces[2], n);
+                break;
+            case 5:
+                faces[0] = RotateMatrix(faces[0], n);
+                faces[0] = RotateMatrix(faces[0], n);
+                faces[0] = RotateMatrix(faces[0], n);
+                break;
+        }
+    }
     for (var d = 0; d < depth; d++)
     {
         switch (rotation)

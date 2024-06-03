@@ -24,20 +24,14 @@
         "strength": 0
     },
     {
-        "input": "5\n          r r r r r\n          r r r r r\n          r r r r r\n          r r r r r\n          r r r r r\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\n          y y y y y\n          y y y y y\n          y y y y y\n          y y y y y\n          y y y y y\n01 01 01 22 24 24 34 51 51 52 53 13 01 24 41",
-        "output": "          y y r r b\n          g g g g b\n          w y y y b\n          r r o o g\n          r r o o g\nw y g g g b b y y y b b o o o r g w o g\nr y o g g b b b b y b b o o o r r g o w\ng y o g g b b b b y b b g g y w w w w y\nw w w w w y y r g y b b r r y w w w w g\no w w w w y w r g y b b r r g w w r r w\n          o g g y o\n          o o r y o\n          o o r y o\n          o r r y o\n          r b b r r",
+        "input":"5\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n14 54 44 22 44 55 31 05 52 01 32 24 45 14 14 11 24 55 03 41 25 12 21 34 53 34 15 05 42 05 35",
+        "output":"          g w b b r\n        r r b y r\n        r w r r r\n        r w r y b\n        r w w y o\nb o g g b o o g g y w g w w w g r y g y\no o w w g r o y g b g b g b g y r g y r\no o w w y g o g g b g b b b r o r o b y\no o g g o y b y w w g g r r b y r o b y\nr o o o r w o o y w g r r b o y r w w g\n        o w w w y\n        b y y o w\n        b y y o b\n        b w w g y\n        b y y b b",
         "sample": false,
         "strength": 10
     },
     {
-        "input": "3\n      a b c\n      d e f\n      g h i\nj k l m n o p q r s t u\nv w x y z A B C D E F G\nH I J K L M N O P Q R S\n      T U V\n      W X Y\n      Z + =\n02 31 01 13 22 11 02 42 22 51 33 01 33 41 52 31 31 02 01 12 53 13 22 52 43 22 42 13 53 22 52",
-        "output": "      N v j\n      h C t\n      c E T\nl y Q g W o p D J m G H\nb F n U e Y B z + O X A\ni L a K q S Z d s V I r\n      M R P\n      x w f\n      = k u",
-        "sample": false,
-        "strength": 10
-    },
-    {
-        "input":"5\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n21 52 43 31 43 13 21 42 22 23 02 32 23 23 03 52 41 52 43 33 52 31 21 01 03 23 01 31 01 22 11",
-        "output":"          g b o w r\n        g b o b o\n        r y y r y\n        w y o w r\n        r o y b o\nb b b y o w y g o y w b w b b o g r y y\nb b o y o w o y g y w r r w g b y g o r\nb g w b y o g o w r g r b w b o y g y g\nw r b o o w w b w w r r w g r o b o r g\nw r w r g y r y o y b g w g g r b o r g\n        w g b y o\n        o g b y y\n        g r r g r\n        w o w g y\n        r g w y b",
+        "input":"3\n      a b c\n      d e f\n      g h i\nj k l m n o p q r s t u\nv w x y z A B C D E F G\nH I J K L M N O P Q R S\n      T U V\n      W X Y\n      Z + =\n02 31 01 13 22 11 02 42 22 51 33 01 33 41 52 31 31 02 01 12 53 13 22 52 43 22 42 13 53 22 52",
+        "output":"      j h K\n      O C G\n      l E M\nu Y m g D V N v J T n a\nt F L U e q f z A B X b\nc x = P + H Z d i p W r\n      Q R S\n      y w k\n      s I o",
         "sample": false,
         "strength": 10
     }

@@ -26,6 +26,8 @@ To encode moves, use the number of the face you want to rotate, and the depth of
 
 Shifting the face of a cube will affect the adjacent faces. For example, rotating face 1 will affect faces 0, 2, 4, and 5.
 
+If shifting all the layers, make sure the opposite face is also rotated. For example, if you rotate face 1, you must also rotate face 3 to maintain geometric consistency.
+
 Together, the encoded moves will be these integers in one line.
 
 ```
@@ -37,6 +39,10 @@ in the form
 ```
 facedepth facedepth facedepth ...
 ```
+
+where 0 < depth <= N
+
+where 0 <= face <= 5
 
 each 1 digit.
 
@@ -173,57 +179,3 @@ g g b b o o w w
 
 **Explanation 3**
 by rotating the cube 90 degrees 4 times, the cube returns to its original state.
-
-3
-      a b c
-      d e f
-      g h i
-j k l m n o p q r s t u
-v w x y z A B C D E F G
-H I J K L M N O P Q R S
-      T U V
-      W X Y
-      Z + =
-02 31 01 13 22 11 02 42 22 51 33 01 33 41 52 31 31 02 01 12 53 13 22 52 43 22 42 13 53 22 52
-      N v j
-      h C t
-      c E T
-l y Q g W o p D J m G H
-b F n U e Y B z + O X A
-i L a K q S Z d s V I r
-      M R P
-      x w f
-      = k u
-
-5
-          r r r r r
-          r r r r r
-          r r r r r
-          r r r r r
-          r r r r r
-g g g g g b b b b b o o o o o w w w w w
-g g g g g b b b b b o o o o o w w w w w
-g g g g g b b b b b o o o o o w w w w w
-g g g g g b b b b b o o o o o w w w w w
-g g g g g b b b b b o o o o o w w w w w
-          y y y y y
-          y y y y y
-          y y y y y
-          y y y y y
-          y y y y y
-21 52 43 31 43 13 21 42 22 23 02 32 23 23 03 52 41 52 43 33 52 31 21 01 03 23 01 31 01 22 11
-          g b o w r
-          g b o b o
-          r y y r y
-          w y o w r
-          r o y b o
-b b b y o w y g o y w b w b b o g r y y
-b b o y o w o y g y w r r w g b y g o r
-b g w b y o g o w r g r b w b o y g y g
-w r b o o w w b w w r r w g r o b o r g
-w r w r g y r y o y b g w g g r b o r g
-          w g b y o
-          o g b y y
-          g r r g r
-          w o w g y
-          r g w y b
