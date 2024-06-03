@@ -1,0 +1,44 @@
+[
+    {
+        "input": "3\n      r r r\n      r r r\n      r r r\ng g g b b b w w w y y y\ng g g b b b w w w y y y\ng g g b b b w w w y y y\n      o o o\n      o o o\n      o o o\n21",
+        "output": "      r r r\n      r r r\n      g g g\ng g o b b b r w w y y y\ng g o b b b r w w y y y\ng g o b b b r w w y y y\n      w w w\n      o o o\n      o o o",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "3\n      r r r\n      r r r\n      g g g\ng g o b b b r w w y y y\ng g o b b b r w w y y y\ng g o b b b r w w y y y\n      w w w\n      o o o\n      o o o\n51 51",
+        "output": "      r r r\n      r r r\n      g g g\ng g o b b b r w w y y y\ng g o b b b r w w y y y\nr w w y y y g g o b b b\n      o o o\n      o o o\n      w w w",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "2\n    r r\n    r r\ng g b b o o w w\ng g b b o o w w\n    y y\n    y y\n01 31",
+        "output": "    r o\n    r b\nb b o y o w r g\ng g b y o w r w\n    y w\n    y g",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "2\n    r r\n    r r\ng g b b o o w w\ng g b b o o w w\n    y y\n    y y\n01 11 22 31 31 31 31 22 22 22 11 11 11 01 01 01",
+        "output": "    r r\n    r r\ng g b b o o w w\ng g b b o o w w\n    y y\n    y y",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "5\n          r r r r r\n          r r r r r\n          r r r r r\n          r r r r r\n          r r r r r\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\n          y y y y y\n          y y y y y\n          y y y y y\n          y y y y y\n          y y y y y\n01 01 01 22 24 24 34 51 51 52 53 13 01 24 41",
+        "output": "          y y r r b\n          g g g g b\n          w y y y b\n          r r o o g\n          r r o o g\nw y g g g b b y y y b b o o o r g w o g\nr y o g g b b b b y b b o o o r r g o w\ng y o g g b b b b y b b g g y w w w w y\nw w w w w y y r g y b b r r y w w w w g\no w w w w y w r g y b b r r g w w r r w\n          o g g y o\n          o o r y o\n          o o r y o\n          o r r y o\n          r b b r r",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "3\n      a b c\n      d e f\n      g h i\nj k l m n o p q r s t u\nv w x y z A B C D E F G\nH I J K L M N O P Q R S\n      T U V\n      W X Y\n      Z + =\n02 31 01 13 22 11 02 42 22 51 33 01 33 41 52 31 31 02 01 12 53 13 22 52 43 22 42 13 53 22 52",
+        "output": "      N v j\n      h C t\n      c E T\nl y Q g W o p D J m G H\nb F n U e Y B z + O X A\ni L a K q S Z d s V I r\n      M R P\n      x w f\n      = k u",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input":"5\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n21 52 43 31 43 13 21 42 22 23 02 32 23 23 03 52 41 52 43 33 52 31 21 01 03 23 01 31 01 22 11",
+        "output":"          g b o w r\n        g b o b o\n        r y y r y\n        w y o w r\n        r o y b o\nb b b y o w y g o y w b w b b o g r y y\nb b o y o w o y g y w r r w g b y g o r\nb g w b y o g o w r g r b w b o y g y g\nw r b o o w w b w w r r w g r o b o r g\nw r w r g y r y o y b g w g g r b o r g\n        w g b y o\n        o g b y y\n        g r r g r\n        w o w g y\n        r g w y b",
+        "sample": false,
+        "strength": 10
+    }
+]
