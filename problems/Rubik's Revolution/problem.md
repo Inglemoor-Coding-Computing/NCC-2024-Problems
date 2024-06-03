@@ -1,6 +1,6 @@
 # Rubik's Revolution
 
-You'll be given a 3 dimensional cube with faces of N dimension and a series of rotations. You'll output the final state of the cube after all the rotations have been applied.
+You'll be given a 3 dimensional cube with 6 faces of N rows and N columns and a list of rotations. You'll output the final state of the cube after all the rotations have been applied.
 
 **Input format**
 
@@ -22,7 +22,7 @@ You'll receive the cube as 6 faces in the following arrangement
       5 5 5
 ```
 
-To encode moves, use the number of the face you want to rotate, and the depth of the rotation, this will rotate it 90 degrees clockwise. For example if you want to rotate face 1 at the first layer plus the second layer under it, 180 degrees, the encoded form would be `12 12`.
+To decode moves, use the number of the face you want to rotate, and the depth of the rotation, this will rotate it 90 degrees clockwise. For example if you want to rotate face 1 at the first layer plus the second layer under it, 180 degrees, the input form would be `12 12`.
 
 Shifting the face of a cube will affect the adjacent faces. For example, rotating face 1 will affect faces 0, 2, 4, and 5.
 
@@ -37,7 +37,7 @@ Together, the encoded moves will be these integers in one line.
 in the form
 
 ```
-facedepth facedepth facedepth ...
+[face][depth] [face][depth] [face][depth] ...
 ```
 
 where 0 < depth <= N
@@ -101,14 +101,14 @@ The cube is rotated 90 degrees clockwise on face 2, affecting the adjacent faces
 3
       r r r
       r r r
-      g g g
-g g o b b b r w w y y y
-g g o b b b r w w y y y
-g g o b b b r w w y y y
-      w w w
+      r r r
+g g g b b b w w w y y y
+g g g b b b w w w y y y
+g g g b b b w w w y y y
       o o o
       o o o
-51 51
+      o o o
+52 52
 ```
 
 **Sample Output 1**
@@ -116,18 +116,18 @@ g g o b b b r w w y y y
 ```
       r r r
       r r r
-      g g g
-g g o b b b r w w y y y
-g g o b b b r w w y y y
-r w w y y y g g o b b b
+      r r r
+g g g b b b w w w y y y
+w w w y y y g g g b b b
+w w w y y y g g g b b b
       o o o
       o o o
-      w w w
+      o o o
 ```
 
 **Explanation 1**
 
-The rotation of the bottom face moved the adjacent squares on the cube.
+The rotation of the bottom face moved the adjacent squares on the cube at a depth of 2, affecting 2 layers beyond the face.
 
 **Sample Input 2**
 ```
