@@ -1,0 +1,50 @@
+[
+    {
+        "input": "tree\napple\ncarrot\nsnake\ndog\n<end>",
+        "output": "apple\ndog\ntree",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "apple\nCarrot\ndog\nZesty\n<end>",
+        "output": "Carrot\nZesty\ndog",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "art\nend\ncat\n<end>",
+        "output": "art\ncat\nend",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "one word\none\n<end>",
+        "output": "one\none\none word",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "3\n1\n2\n<end>",
+        "output": "1\n2\n3",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "10\n20\n30\n6\n4\n5\n1\n<end>",
+        "output": "1\n30\n6",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "word one\nword two\nword zippy\n<end>",
+        "output": "word one\nword two\nword zippy",
+        "sample": false,
+        "strength": 5
+    },
+    {
+        "input": "<end>",
+        "output": "",
+        "sample": false,
+        "strength": 5
+    }
+]

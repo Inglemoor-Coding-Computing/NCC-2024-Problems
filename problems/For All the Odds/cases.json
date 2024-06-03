@@ -1,0 +1,44 @@
+[
+    {
+        "input": "1 13",
+        "output": "3 11",
+        "sample": true,
+        "strength": 0 
+    },
+    {
+        "input": "14 21",
+        "output": "15 17 19",
+        "sample": false,
+        "strength": 2
+    },
+    {
+        "input": "24 34",
+        "output": "25 27 29 31 33",
+        "sample": false,
+        "strength": 2
+    },
+    {
+        "input": "-4 13",
+        "output": "-3 -1 1 3 11",
+        "sample": false,
+        "strength": 3
+    },
+    {
+        "input": "3 15",
+        "output": "5 11 13",
+        "sample": false,
+        "strength": 2
+    },
+    {
+        "input": "23 33",
+        "output": "25 27 29 31",
+        "sample": false,
+        "strength": 2
+    },
+    {
+        "input": "43 71",
+        "output": "45 47 49 51 53 57 61 63 67",
+        "sample": false,
+        "strength": 2
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "input":"50 1.4142135623730951",
+        "output":"41 29",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input":"50 1.7320508075688772",
+        "output":"19 11",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input":"500 2.23606797749979",
+        "output":"199 89",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input":"5000 3.141592653589793",
+        "output":"4483 1427",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input":"50000 2.718281828459045",
+        "output":"49171 18089",
+        "sample": false,
+        "strength": 10
+    }
+]

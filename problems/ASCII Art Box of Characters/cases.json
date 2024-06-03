@@ -1,0 +1,32 @@
+[
+    {
+        "input": "2 2 x",
+        "output": "xx\nxx",
+        "sample": "true",
+        "strength": 0
+    },
+    {
+        "input": "2 4 *",
+        "output": "**\n**\n**\n**",
+        "sample": "false",
+        "strength": 10
+    },
+    {
+        "input": "5 1 -",
+        "output": "-----",
+        "sample": "false",
+        "strength": 10
+    },
+    {
+        "input": "1 4 0",
+        "output": "0\n0\n0\n0",
+        "sample": "false",
+        "strength": 10
+    },
+    {
+        "input": "6 4 X",
+        "output": "XXXXXX\nXXXXXX\nXXXXXX\nXXXXXX",
+        "sample": "false",
+        "strength": 10
+    }
+]

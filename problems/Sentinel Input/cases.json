@@ -1,0 +1,26 @@
+[
+    {
+        "input": "Hello\nThere\n<end>",
+        "output": "Hello\nThere",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "This is a full line.\nPut an entire line as a line.\nA line can contain <end> in it.\n<end>",
+        "output": "This is a full line.\nPut an entire line as a line.\nA line can contain <end> in it.",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "\nNumbers 00 and 01 letters.\nCan <end> all contain\nmore\nthan just\n<end> do not <end>\njust\n<end>",
+        "output": "Numbers 00 and 01 letters.\nCan <end> all contain\nmore\nthan just\n<end> do not <end>\njust",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input":"0\n1\n2\n3\n4\n<e\nnd>\n<end>",
+        "output":"0\n1\n2\n3\n4\n<e\nnd>",
+        "sample":false,
+        "strength":10
+    }
+]

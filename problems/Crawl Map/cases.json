@@ -1,0 +1,43 @@
+[
+    {
+        "input": "a b c\nr a b",
+        "output": "a",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "a b c d\nz w x y",
+        "output": "<none>",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "a b c d\nb c d a",
+        "output": "d",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "a b c d e f g\nb c d e f g h",
+        "output": "g",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1\nl",
+        "output": "<none>",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "a b c d e f g\ne f g e b c d",
+        "output": "e",
+        "sample": false,
+        "strength": 10
+    },{
+        "input": "aa ab ac ad ae\nab ac ad ac ad",
+        "output": "ad",
+        "sample": false,
+        "strength": 10
+    }
+]

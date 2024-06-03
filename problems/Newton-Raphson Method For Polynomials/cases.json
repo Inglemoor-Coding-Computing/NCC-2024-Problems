@@ -1,0 +1,68 @@
+[
+    {
+        "input": "1 0 -3",
+        "output": "-1.732\n1.732",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "1 -2",
+        "output": "2.000",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "1 5",
+        "output": "-5.000",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 0 -2",
+        "output": "-1.414\n1.414",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 10 0 -2",
+        "output": "-9.980\n-0.458\n0.438",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 -10 20 0 -2",
+        "output": "-0.295\n0.347\n2.704\n7.245",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 0 -2 2",
+        "output": "-1.769",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 0 -1100000",
+        "output": "-1048.809\n1048.809",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 0 0 101000000",
+        "output": "-465.701",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 -10001 9998 20000",
+        "output": "-1.000\n2.000\n10000.000",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "1 0 -250000",
+        "output": "-500.000\n500.000",
+        "sample": false,
+        "strength": 10
+    }
+]
