@@ -1,0 +1,38 @@
+[
+    {
+        "input": "3\n      r r r\n      r r r\n      r r r\ng g g b b b w w w y y y\ng g g b b b w w w y y y\ng g g b b b w w w y y y\n      o o o\n      o o o\n      o o o\n21",
+        "output": "      r r r\n      r r r\n      g g g\ng g o b b b r w w y y y\ng g o b b b r w w y y y\ng g o b b b r w w y y y\n      w w w\n      o o o\n      o o o",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "3\n      r r r\n      r r r\n      g g g\ng g o b b b r w w y y y\ng g o b b b r w w y y y\ng g o b b b r w w y y y\n      w w w\n      o o o\n      o o o\n51 51",
+        "output": "      r r r\n      r r r\n      g g g\ng g o b b b r w w y y y\ng g o b b b r w w y y y\nr w w y y y g g o b b b\n      o o o\n      o o o\n      w w w",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "2\n    r r\n    r r\ng g b b o o w w\ng g b b o o w w\n    y y\n    y y\n01 31",
+        "output": "    r o\n    r b\nb b o y o w r g\ng g b y o w r w\n    y w\n    y g",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "2\n    r r\n    r r\ng g b b o o w w\ng g b b o o w w\n    y y\n    y y\n01 11 22 31 31 31 31 22 22 22 11 11 11 01 01 01",
+        "output": "    r r\n    r r\ng g b b o o w w\ng g b b o o w w\n    y y\n    y y",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input":"5\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\n        r r r r r\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\ng g g g g b b b b b o o o o o w w w w w\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n        y y y y y\n14 54 44 22 44 55 31 05 52 01 32 24 45 14 14 11 24 55 03 41 25 12 21 34 53 34 15 05 42 05 35",
+        "output":"          g w b b r\n        r r b y r\n        r w r r r\n        r w r y b\n        r w w y o\nb o g g b o o g g y w g w w w g r y g y\no o w w g r o y g b g b g b g y r g y r\no o w w y g o g g b g b b b r o r o b y\no o g g o y b y w w g g r r b y r o b y\nr o o o r w o o y w g r r b o y r w w g\n        o w w w y\n        b y y o w\n        b y y o b\n        b w w g y\n        b y y b b",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input":"3\n      a b c\n      d e f\n      g h i\nj k l m n o p q r s t u\nv w x y z A B C D E F G\nH I J K L M N O P Q R S\n      T U V\n      W X Y\n      Z + =\n02 31 01 13 22 11 02 42 22 51 33 01 33 41 52 31 31 02 01 12 53 13 22 52 43 22 42 13 53 22 52",
+        "output":"      j h K\n      O C G\n      l E M\nu Y m g D V N v J T n a\nt F L U e q f z A B X b\nc x = P + H Z d i p W r\n      Q R S\n      y w k\n      s I o",
+        "sample": false,
+        "strength": 10
+    }
+]
