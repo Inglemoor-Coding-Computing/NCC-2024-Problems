@@ -1,0 +1,32 @@
+[
+    {
+        "input": "5 3\nr r r r r\ng g g g g\nb b b b b\ny y y y y\nw w w w w\n\nr r r r r\ng g g # g\nb b b # b\ny y y # y\nw w w w #\n\nw w w # #\ny y y y #\n# b b # b\ng g g g g\nr r r r r\n\nr r # # #\nb b b g g\ny y y y y\nw w w w w\nr r r r r",
+        "output": "w w w w w\ny y y y y\nb b b b b\ng g g g g\nr r r r r",
+        "sample": true,
+        "strength": 0
+    },
+    {
+        "input": "3 4\nr r r\ng b g\ny y y\n\nr r b\n# b b\ng g #\n\n# b b\nb # b\nb b #\n\ny g r\ny # r\ny # r\n\ny # y\nr b r\ny g r",
+        "output": "y g r\ny b r\ny g r",
+        "sample": true,
+        "strength": 10
+    },
+    {
+        "input": "2 3\na a\nb b\n\na a\n# #\n\n# b\nb #\n\nb b\na a",
+        "output": "b b\na a",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "3 5\np p p\nq q q\nr r r\n\nr r #\nq q q\np p p\n\np p p\nq # q\nr r r\n\n# # r\nq q #\np p p\n\n# # #\np p p\nq q q\n\nq q q\n# # #\np p p",
+        "output": "r r r\nq q q\np p p",
+        "sample": false,
+        "strength": 10
+    },
+    {
+        "input": "4 4\nr r r r\ng g g g\nb b b b\nw w w w\n\nw w w w\nb # # #\ng g g g\nr r # #\n\nr r # r\ng g g g\nb b g b\nw # # #\n\nr r g r\ng g g g\nb b g b\nw w w #\n\n# r r r\n# g g g\n# b b b\n# w w w",
+        "output": "w w w w\nb b b b\ng g g g\nr r r r",
+        "sample": false,
+        "strength": 10
+    }
+]
